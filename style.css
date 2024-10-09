@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ruda:wght@400..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+
+
+.nav1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav1 img{
+    max-width: 200px;
+}
+
+.nav1 a{
+    color: #24242a;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav1 a:hover{
+    color: #606060;
+}
+
+
+.icon-social a{
+    transition: all 0.3s ease 0s;
+    color: #24242a;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.icon-social a:hover{
+    color: #606060;
+}
+
+.hero{
+    margin-top: 10px;
+    height: 80vh;
+    padding: 0 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+img{
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.hero .left-section .top h2{
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+
+.hero .left-section .top p{
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+
+.btn1{
+    border: none;
+    border:  1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    background: white;
+    transition: all 0.3s ease 0s;
+    margin: 10px;
+}
+
+.btn1:hover{
+    background: black;
+    color: white;
+}
+
+.btn2{
+    transition: all 0.3s ease 0s;
+    border: none;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.btn2:hover{
+    background: white;
+    color: black;
+}
+
+h1{
+    margin-top: 18px;
+    text-align: center;
+}
+
+.itmes{
+    padding: 0 35px;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.itmes .itme .inner h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.itmes .itme .inner p{
+    padding: 15px;
+}
+.btn3{
+    border: 1px solid black;
+    font-size: 14px;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0 8px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn3:hover{
+    background: black;
+    color: white;
+}
+
+
+footer{
+    color: #606060;
+    background: #24242a;
+    padding: 40px;
+    border-radius: 24px 24px 0 0;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    color: #606060;
+    transition: all 0.3s ease 0s;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
